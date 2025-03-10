@@ -1,7 +1,6 @@
 import { expect } from '@playwright/test';
 import { test } from '../fixtures';
 
-
 test('Verify user login', async ({ page, homePage, signinPage }) => {
     await signinPage.navigate();
     const signinPageTitle = await signinPage.getTitle();
