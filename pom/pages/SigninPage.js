@@ -31,6 +31,6 @@ export default class SigninPage {
     async clickLoginButton() {
         await this.loginButton.click();
     }
-    }
+}
 
 
